@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-body text-[#1C2530] bg-white;
+}
+
+h1, h2, h3, h4 {
+  @apply font-heading font-semibold text-navy-deep;
+}
+
+.form-input {
+  @apply w-full border border-line rounded-md px-3.5 py-2.5 text-sm bg-white text-[#1C2530];
+}
+
+.form-input:focus {
+  @apply outline outline-2 outline-gold outline-offset-1;
+}
