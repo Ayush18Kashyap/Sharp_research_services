@@ -21,3 +21,7 @@
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.gitignore
+
+.env.local.example
